@@ -1,0 +1,14 @@
+[
+  {
+    "id": "my-first-book",
+    "title": "니체의 가르침, 단독자로 살아라",
+    "author": "프리드리히 니체",
+    "finished": "2026-09-25",
+    "genre": "에세이",
+    "color": "#86574b",
+    "cover": "covers/Nietzsches teachings.jpg",
+    "impression": "책을 덮고 가장 먼저 떠오른 감정을 적어보세요.",
+    "recommendation": "이 책을 권하고 싶은 사람을 적어보세요.",
+    "review": "여기부터 자유롭게 독후감을 작성하세요. 글이 길어지면 다음 페이지로 이어집니다."
+  }
+]
