@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" role="img" aria-labelledby="title desc">
+<title id="title">나의 작은 도서관</title><desc id="desc">짙은 초록빛 독서실의 서가와 제목</desc>
+<defs>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#233936"/><stop offset="1" stop-color="#132321"/></linearGradient>
+  <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#bb8c52"/><stop offset=".4" stop-color="#765132"/><stop offset="1" stop-color="#432e22"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#e6c492" stop-opacity=".25"/><stop offset="1" stop-color="#e6c492" stop-opacity="0"/></radialGradient>
+  <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 6h24M0 18h24" stroke="#fff" stroke-opacity=".025"/></pattern>
+</defs>
+<rect width="1100" height="380" rx="16" fill="url(#bg)"/><rect width="1100" height="380" rx="16" fill="url(#grain)"/>
+<ellipse cx="550" cy="60" rx="450" ry="270" fill="url(#light)"/>
+<rect x="26" y="24" width="1048" height="332" rx="7" fill="none" stroke="#b99967" stroke-opacity=".62" stroke-width="2"/><rect x="34" y="32" width="1032" height="316" rx="5" fill="none" stroke="#b99967" stroke-opacity=".22"/>
+<text x="550" y="88" text-anchor="middle" font-family="Georgia,serif" font-size="16" letter-spacing="7" fill="#d9bc8a">THE READING ROOM</text>
+<path d="M344 111h134m144 0h134" stroke="#b89a66" stroke-opacity=".8"/><circle cx="550" cy="111" r="4" fill="#d9bc8a"/>
+<text x="550" y="176" text-anchor="middle" font-family="Georgia,'Noto Serif KR',serif" font-weight="bold" font-size="51" fill="#f1e9d8">나의 작은 도서관</text>
+<text x="550" y="212" text-anchor="middle" font-family="Georgia,'Noto Serif KR',serif" font-size="17" fill="#d3cfbd">책을 덮은 뒤에도 오래 남아 있는 마음을 모읍니다</text>
+<rect x="195" y="307" width="710" height="15" rx="2" fill="url(#wood)"/><rect x="197" y="322" width="706" height="5" fill="#301f19" opacity=".65"/>
+<g stroke="#e9d3a4" stroke-opacity=".56" stroke-width="1.2">
+<rect x="244" y="251" width="28" height="56" rx="2" fill="#8e584d"/><rect x="278" y="259" width="21" height="48" rx="2" fill="#526653"/><rect x="303" y="246" width="32" height="61" rx="2" fill="#405868"/><rect x="340" y="257" width="25" height="50" rx="2" fill="#9a7350"/>
+<rect x="372" y="267" width="42" height="40" rx="2" fill="#69586d"/>
+<rect x="684" y="257" width="27" height="50" rx="2" fill="#466c67"/><rect x="716" y="247" width="29" height="60" rx="2" fill="#927357"/><rect x="750" y="262" width="23" height="45" rx="2" fill="#674e62"/><rect x="778" y="250" width="29" height="57" rx="2" fill="#536b4d"/><rect x="813" y="266" width="38" height="41" rx="2" fill="#99624b"/>
+</g>
+<path d="M486 303c35-15 55-15 64-7 9-8 29-8 64 7v5c-35-14-55-14-64-6-9-8-29-8-64 6z" fill="#e8dabe" stroke="#ad946c"/><path d="M550 295v13" stroke="#ad946c"/>
+<g stroke="#eacb8b" stroke-opacity=".7"><path d="M252 260v35m54-39v40m41-29v31m354-29v29m51-30v28m66-20v20"/></g>
+</svg>

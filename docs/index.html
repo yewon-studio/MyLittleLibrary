@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192528">
+  <meta name="description" content="읽은 책과 독후감을 모아둔 작은 책장">
+  <title>나의 작은 도서관</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="book-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambience" aria-hidden="true"></div>
+  <main class="room">
+    <header class="intro">
+      <div class="eyebrow"><span class="sparkle">✦</span> THE READING ROOM <span class="sparkle">✦</span></div>
+      <h1 id="site-title">나의 작은 도서관</h1>
+      <p id="site-subtitle">읽고, 머물고, 오래 기억한 이야기들</p>
+      <div class="ornament" aria-hidden="true"><span></span> ❧ <span></span></div>
+    </header>
+    <section class="catalog" aria-label="읽은 책 목록">
+      <div class="catalog-head">
+        <div><span class="section-kicker">MY COLLECTION</span><h2>나의 책장</h2></div>
+        <div class="count" id="book-count">책을 정리하고 있어요</div>
+      </div>
+      <div class="controls">
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">책 제목이나 작가 검색</span><input id="search" type="search" placeholder="책 제목 또는 작가 검색" autocomplete="off"></label>
+        <select id="sort" aria-label="정렬 방식"><option value="recent">최근 읽은 순</option><option value="oldest">오래된 순</option><option value="title">제목 순</option></select>
+      </div>
+      <div class="shelf-frame"><div id="shelves" class="shelves" aria-live="polite"></div></div>
+      <p class="hint">✦ 책등을 눌러 그 안에 남긴 이야기를 펼쳐보세요</p>
+    </section>
+    <footer id="site-footer">책장을 넘기듯 천천히 둘러보세요</footer>
+  </main>
+  <dialog id="book-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-layout">
+      <div class="display-cover"><div id="dialog-cover" class="cover-face"><img id="cover-image" alt="" hidden><div id="cover-placeholder" class="cover-placeholder"></div></div><div class="cover-details"><strong id="cover-title"></strong><span id="cover-author"></span><span id="cover-date"></span></div></div>
+      <article class="book-page"><button id="close-dialog" class="close" type="button" aria-label="닫기">×</button><div id="summary-page" class="summary-page"><section><h3>읽고 난 뒤</h3><p id="dialog-impression"></p></section><section><h3>이런 분께 추천해요</h3><p id="dialog-recommendation"></p></section></div><div id="review-page" class="review-page" hidden><h2 id="dialog-title">독후감</h2><div id="review-text" class="review-text" aria-live="polite"></div></div><nav class="page-controls" aria-label="독후감 페이지"><button id="prev-page" type="button" aria-label="이전 페이지">← 이전</button><span id="page-indicator"></span><button id="next-page" type="button" aria-label="다음 페이지">다음 →</button></nav></article>
+    </div>
+  </dialog>
+</body>
+</html>
