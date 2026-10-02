@@ -9,6 +9,7 @@
     "cover": "covers/Nietzsches teachings.jpg",
     "impression": "책을 덮고 가장 먼저 떠오른 감정을 적어보세요.",
     "recommendation": "이 책을 권하고 싶은 사람을 적어보세요.",
-    "review": "여기부터 자유롭게 독후감을 작성하세요. 글이 길어지면 다음 페이지로 이어집니다."
+    "review": "",
+    "review_file": ""
   }
 ]
